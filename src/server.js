@@ -5,6 +5,6 @@ dotenv.config({
     path : "src/.env"
 })
 const server = http.createServer(app);
-server.listen(process.env.port,()=>{
+server.listen(process.env.PORT,()=>{
     console.log(`server is listening on port ${process.env.port}`);
 })
