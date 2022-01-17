@@ -1,0 +1,20 @@
+{
+  "name": "reunion-assignment",
+  "version": "1.0.0",
+  "description": "backend assignment of reunion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Sheikh Saifuddin Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^12.0.4",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
