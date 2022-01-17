@@ -5,7 +5,7 @@ const userController = require('./controllers/userController')
 const postController = require('./controllers/postController')
 const bodyparser = require('body-parser')
 app.use(bodyparser.json())
-app.get("/",(req,res,next)=>{
+app.get("/home",(req,res,next)=>{
     console.log(req)
     res.send("this is home route")
 });
